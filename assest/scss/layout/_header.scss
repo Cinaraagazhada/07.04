@@ -1,0 +1,65 @@
+body{
+  background-image: url("../assest/media/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+    header {
+        padding: 2rem 0;
+        .nav {
+        position: relative;
+          display: flex;
+          justify-content: space-between;
+          &-left {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+            h1 {
+              width: 141px;
+              height: 32px;
+              font-size: 24px;
+              line-height: 32px;
+              letter-spacing: 0.1px;
+              color: $color-1;
+            }
+            ul {
+              display: flex;
+              margin-left: 3rem;
+              list-style: none;
+              li {
+                a {
+                  font-size: 14px;
+                  line-height: 30px;
+                  text-align: center;
+                  letter-spacing: 0.2px;
+                  color: #737373;
+                  margin-left: 2rem;
+                  text-decoration: none;
+                 
+                }
+              }
+            }
+          }
+          &-right {
+            a {
+              font-size: 14px;
+              line-height: 22px;
+              letter-spacing: 0.2px;
+              color: $color-2;
+              margin-right: 2rem;
+            }
+            button {
+              border-radius: 5px;
+              align-items: center;
+              padding: 15px 25px;
+              background-color: $color-3;
+              color: white;
+              border: none;
+              cursor: pointer;
+              margin-bottom: 40px;
+            }
+          }
+        }
+    
+      }
+    }

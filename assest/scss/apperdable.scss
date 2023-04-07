@@ -1,0 +1,53 @@
+#courses {
+    padding: 9rem 0;
+    .section-top {
+      margin-bottom: 5rem;
+      h6 {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: $color-2;
+        margin-bottom: 0.5remrem;
+      }
+      h2 {
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        margin-bottom: 0.8rem;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+      }
+    }
+    .section-bottom {
+      display: flex;
+      justify-content: space-between;
+      .content {
+        padding: 3rem 2rem;
+        gap: 20px;
+        width: 230px;
+        height: 260px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        text-align: center;
+        i {
+          font-size: 3rem;
+          margin-bottom: 2rem;
+        }
+        h5 {
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.1px;
+          margin-bottom: 1.5rem;
+        }
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+        }
+      }
+    }
+  }
